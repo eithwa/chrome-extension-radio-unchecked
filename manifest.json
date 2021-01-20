@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Radio Unchecked",
+  "description": "取消Radio元素勾選",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "identity",
+    "tabs",
+    "activeTab",
+    "*://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "jquery.min.js", "execute.js"
+      ]
+    }
+  ]
+}
