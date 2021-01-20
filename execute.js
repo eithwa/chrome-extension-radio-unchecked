@@ -14,12 +14,9 @@ function radio_unchecked(id)
                 break;   
             }
         }
-        if(checked == true)
+        if(checked == false)
         {
-            element.checked=false;
-        }else
-        {
-            radio_list.push(element.id)
+            radio_list.push(element.id);
         }
     }
 }
