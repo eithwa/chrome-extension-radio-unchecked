@@ -16,5 +16,5 @@ chrome://extensions/
 chrome-extension-radio-unchecked.crx
 ```
 
-點擊網頁左上"載入未封裝項目"
+點擊網頁左上"載入未封裝項目"  
 選擇檔案所在資料夾
